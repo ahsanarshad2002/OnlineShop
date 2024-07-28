@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(255, 240, 240, 0.331);
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+a{
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0px 10px 3px #fffb02;
+}
+
+ul li:hover a {
+    padding-left: 20px;
+}
+/* first-section*/
+.first-section{
+
+    overflow: hidden;
+}
+.crdd{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10%;
+    width: 80%;
+    height: auto;
+}
+.crdd,input,textarea,button{
+    margin-top: 5%;
+}
+.snd{
+    width: 50%;
+    background-color: #ffd502;
+    border: none;
+    height: 40px;
+    
+}
+.card-map{
+    margin-top: 7%;
+    width: 80%;
+    padding: 2%;
+    background-color: #fff;
+}
+.card-map img{
+    width: 100%;
+}
+.card-map i{
+    color: #ffd502;
+    margin-right: 10px;
+}
+.card-map div {
+    display: block;
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-radius: 5px;
+}
+.card-map p {
+    display: inline;
+    margin: 0;
+}
+
+@media (min-width:320px) and (max-width:575px){
+    .snd{
+        height: auto;
+    }   
+    .card-map,.crdd{
+        margin-left: 10%;
+    }
+}

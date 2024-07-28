@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="checkout.css">
+    <title>CheckOut</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div style="background-color: transparent;" class="row  py-1 px-xl-5">
+            <div class="col-lg-6 d-none d-lg-block">
+                <div style="gap: 10px;" class="d-inline-flex align-items-center h-100">
+                    <a class="text-body mr-3" href="">About</a>
+                    <a class="text-body mr-3" href="">Contact</a>
+                    <a class="text-body mr-3" href="">Help</a>
+                    <a class="text-body mr-3" href="">FAQs</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">My
+                            Account</button>
+                    </div>
+                    <div class="btn-group mx-2">
+                        <button type="button" class="btn btn-sm btn-light dropdown-toggle"
+                            data-toggle="dropdown">USD</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-light dropdown-toggle"
+                            data-toggle="dropdown">EN</button>
+                    </div>
+                </div>
+                <div class="d-inline-flex align-items-center d-block d-lg-none">
+                    <a href="" class="btn px-0 ml-2">
+                        <i class="fas fa-heart text-dark"></i>
+                        <span class="badge text-dark border border-dark rounded-circle"
+                            style="padding-bottom: 2px;">0</span>
+                    </a>
+                    <a href="" class="btn px-0 ml-2">
+                        <i class="fas fa-shopping-cart text-dark"></i>
+                        <span class="badge text-dark border border-dark rounded-circle"
+                            style="padding-bottom: 2px;">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+            <div class="col-lg-4">
+                <a href="" class="text-decoration-none">
+                    <span style="background-color: black; color: rgb(255, 204, 0);"
+                        class="h1 text-uppercase   px-2">Royal</span>
+                    <span style="background-color:rgb(255, 204, 0) ; color: black; position: absolute;"
+                        class="h1 text-uppercase  px-2 ml-n1">Shop</span>
+
+                </a>
+            </div>
+            <div class="col-lg-6 col-7 text-left">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for products">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-primary">
+                                <i style="font-size: 30px; color: rgb(255, 204, 0); " class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-2 col-1 text-right">
+                <p class="m-0">Customer Service</p>
+                <h5 class="m-0">+012 345 6789</h5>
+            </div>
+        </div>
+    </div>
+    <nav style="background-color: black;  text-decoration: none;" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" width="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoties
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Dress</a></li>
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Shirts</a></li>
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Jeans</a></li>
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Swimwear</a></li>
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Sleepwear</a></li>
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Jumpsuits</a></li>
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Blazers</a></li>
+                            <li><a style="background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="#">Jackets</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: white;" class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: white;" class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: white;" class="nav-link" href="shopdeatil.html">Shop Detali</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a style=" background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="shoppingcart.html">Shopping Cart</a></li>
+                            <li><a style=" background-color: rgb(255, 204, 0); color: white;" class="dropdown-item"
+                                    href="checkout.html">Checkout</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="color: white;" class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12 tp">
+                <nav class="breadcrumb bg-tranparent mb-30">
+                    <a class="breadcrumb-item text-dark" href="index.html">Home</a>
+                    <a class="breadcrumb-item text-dark" href="shop.html">Shop</a>
+                    <span class="breadcrumb-item active">Checkout</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="first-section">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="left-card">
+                    <h2 style="margin-left: 4%;" >BILLING ADDRESS</h2>
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="example@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile">Mobile No</label>
+                                <input type="tel" id="mobile" placeholder="+123 456 789" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="address1">Address Line 1</label>
+                                <input type="text" id="address1" placeholder="123 Street" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address2">Address Line 2</label>
+                                <input type="text" id="address2" placeholder="123 Street" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <select id="country" required>
+                                    <option value="United States">United States</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" placeholder="New York" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">State</label>
+                                <input type="text" id="state" placeholder="New York" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="zip">Zip Code</label>
+                                <input type="text" id="zip" placeholder="123" required>
+                            </div>
+                        </div>
+                        <div class="form-ro">
+                            <div class="form-grou">
+                                <input type="checkbox" id="createAccount">
+                                <label for="createAccount">Create an account</label>
+                            </div>
+                            <div class="form-grou">
+                                <input type="checkbox" id="shipDifferent">
+                                <label for="shipDifferent">Ship to a different address</label>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <h2 style="margin-left: 5%;">ORDER TOTAL</h2>
+                <div class="card--">
+                    <div class="p">
+                        <h3>Product1</h3>
+                        <h4>$150</h4>
+                    </div>
+                    <div class="pp">
+                        <h3>Product1</h3>
+                        <h4>$150</h4>
+                    </div>
+                    <div class="pp">
+                        <h3>Product1</h3>
+                        <h4>$150</h4>
+                    </div>
+                    <div class="Subtotal">
+                        <h3>Subtotal</h3>
+                        <h4>$150</h4>
+                    </div>
+                    <div class="shipping">
+                        <h3>Shipping</h3>
+                        <h4>$10</h4>
+                    </div>
+                    <div class="total">
+                        <h2>Total</h2>
+                        <h4>$160</h4>
+                    </div>
+                </div>
+                <h2 style="margin-top: 2%; margin-left: 5%; ">PAYMENT</h2>
+                <div class="card---">
+                    <form action="">
+                        <div>
+                            <input type="radio" name="payment" id="">
+                            <label for="">Payal</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment" id="">
+                            <label for="">Direct Check</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment" id="">
+                            <label for="">Bank Transfer</label>
+                        </div>
+                    </form>
+                    <button class="chrtbtn">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid bg-dark text-white mt-5 pt-5">
+            <div class="row px-xl-5 pt-5">
+                <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                    <h5 class="text-uppercase mb-4">Get In Touch</h5>
+                    <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed
+                        dolor. Rebum tempor no vero est magna amet no</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt mr-3" style="color: rgb(255, 204, 0);"></i>123
+                        Street, New
+                        York, USA</p>
+                    <p class="mb-2"><i class="fa fa-envelope mr-3" style="color: rgb(255, 204, 0)"></i>info@example.com
+                    </p>
+                    <p class="mb-0"><i class="fa fa-phone-alt mr-3" style="color: rgb(255, 204, 0)"></i>+012 345 67890
+                    </p>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 mb-5">
+                            <h5 class="text-uppercase mb-4">Quick Shop</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Home</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Our Shop</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Shop Detail</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Shopping Cart</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Checkout</a>
+                                <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <h5 class="text-uppercase mb-4">My Account</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Home</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Our Shop</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Shop Detail</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Shopping Cart</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Checkout</a>
+                                <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"
+                                        style="color:  rgb(255, 204, 0)"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <h5 class="text-uppercase mb-4">Newsletter</h5>
+                            <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                            <form action="">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Your Email Address">
+                                    <div class="input-group-append">
+                                        <button style="background-color: rgb(255, 204, 0); height: 50px;">Sign
+                                            Up</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
+                            <div class="d-flex">
+                                <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-twitter"
+                                        style="color:  rgb(255, 204, 0)"></i></a>
+                                <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"
+                                        style="color:  rgb(255, 204, 0)"></i></a>
+                                <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"
+                                        style="color:  rgb(255, 204, 0)"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram"
+                                        style="color:  rgb(255, 204, 0)"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+                <div class="col-md-6 px-xl-0">
+                    <p class="mb-md-0 text-center text-md-left text-white">
+                        &copy; <a class="text-primary" href="#">Domain</a>. All Rights Reserved. Designed
+                        by
+                        <a class="text-primary" href="https://htmlcodex.com">HTML Codex</a>
+                    </p>
+                </div>
+                <div class="col-md-6 px-xl-0 text-center text-md-right">
+                    <img class="img-fluid" src="payment.png" alt="Payments">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

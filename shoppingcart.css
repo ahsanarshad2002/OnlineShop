@@ -1,0 +1,229 @@
+body {
+    background-color: rgba(255, 240, 240, 0.331);
+}
+.dropdown-menu li:hover {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0px 10px 3px #fffb02;
+}
+.tp a {
+    text-decoration: none;
+}
+.first-section{
+    overflow: hidden;
+    margin: 5%;
+    
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+/* Quantity container styling */
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input buttons styling */
+.input-btn {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffc107;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.input-btn i {
+    color: #fff;
+}
+
+/* Text input styling */
+
+
+
+input[type="text"] {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.remove-btn {
+    color: #f44336;
+    cursor: pointer;
+}
+td img{
+    width: 50%;
+}
+table tr:hover{
+    background-color: rgba(128, 128, 128, 0.42);
+    transform: scale(.8);
+    transition: .4s;
+}
+
+
+
+
+.code{
+    margin-left: 5%;
+}
+
+
+.code input{
+    width: 50%;
+    background-color: white;
+    border: none;
+    height: 40px;
+}
+.code button{
+    background-color: rgb(255, 196, 0);
+    width: 30%;
+    height: 40px;
+    border: none;
+}
+.code button:hover{
+    background-color: orange;
+}
+ h1{
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 4vmin;
+}
+.card--{
+    margin-left: 5%;
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    height: 300px;
+    background-color: white;
+}
+.sub-total{
+    padding-top: 5%;
+    margin: 10%;
+}
+.sub-total h3{
+    font-size: 4vmin;
+}
+.sub-total h4{
+    float: right;
+    font-size: 3vmin;
+    margin-top: -12%;
+}
+.shipping{
+    margin: 10%;
+}
+.shipping h3{
+    font-size: 4vmin;   
+}
+.shipping h4{
+    float: right;
+    font-size: 3vmin;
+    margin-top: -12%;
+}
+.total{
+    margin: 10%;
+}
+.total h2{
+    font-size: 5vmin;
+}
+.total h4{
+    font-size: 3vmin;
+    float: right;
+    margin-top: -12%;
+}
+.checkout {
+   margin-left: 20%;
+   height: 40px;
+   border: none;
+   background-color: rgb(255, 196, 0);
+}
+.btn{
+    margin-top: -1%;
+}
+/* footer */
+footer a{
+    text-decoration: none;
+}
+.img-fluid{
+    width: 50%;
+}
+.d-flex a{
+    background: transparent;
+    border: none;
+}
+.d-flex a:hover{
+    display: none;
+}
+
+
+@media (min-width:320px) and (max-width:575px){
+    .first-section{
+        margin: 0%;
+        padding: 0%;
+    }
+    td img{
+        width: 100%;
+    }
+    td i{
+        font-size: 3vmin;
+    }
+    td{
+        font-size: 4vmin;
+    }
+    thead{
+        font-size: 2.5vmin;
+    }
+    th,td{
+        padding: 5px;
+    }
+    .code{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .code input{
+        width: 60%;
+    }
+    .btn{
+        font-size: 3vmin;
+        font-weight: bold;
+    }
+    h1{
+        text-align: center;
+    }
+    .card--{
+        height: auto;
+        margin-left: 20%;
+    }
+    .checkout{
+        width: 50%;
+        font-size: 3vmin;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+}

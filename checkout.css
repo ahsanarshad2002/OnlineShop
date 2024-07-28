@@ -1,0 +1,193 @@
+body {
+    background-color: rgba(255, 240, 240, 0.331);
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+a{
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0px 10px 3px #fffb02;
+}
+
+ul li:hover a {
+    padding-left: 20px;
+}
+/* first-section*/
+.first-section{
+    overflow: hidden;
+}
+form{
+    margin-left: 2%;
+    background-color: white;
+    padding: 5%;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 0 0 45%; /* Adjust the width of each form-group */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: gray;
+}
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card--{
+    margin-top: 5%;
+    padding: 1%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    height: auto;
+    background-color: white;
+}
+.p{
+    margin-top: 5%;
+    margin: 10%;
+}
+.p h3{
+    font-size: 3vmin;
+}
+.p h4{
+    float: right;
+    font-size: 2vmin;
+    margin-top: -12%;
+}
+.pp{
+    margin-top: 5%;
+    margin: 10%;
+}
+.pp h3{
+    font-size: 3vmin;
+}
+.pp h4{
+    float: right;
+    font-size: 2vmin;
+    margin-top: -12%;
+}
+.ppp{
+    margin-top: 5%;
+    margin: 10%;
+}
+.ppp h3{
+    font-size: 3vmin;
+}
+.ppp h4{
+    float: right;
+    font-size: 2vmin;
+    margin-top: -12%;
+}
+.Subtotal{
+    padding-top: 2%;
+    margin: 10%;
+}
+.Subtotal h3{
+    font-size: 3vmin;
+}
+.Subtotal h4{
+    float: right;
+    font-size: 2vmin;
+    margin-top: -12%;
+}
+.shipping{
+    margin: 10%;
+}
+.shipping h3{
+    font-size: 3vmin;   
+}
+.shipping h4{
+    float: right;
+    font-size: 3vmin;
+    margin-top: -12%;
+}
+.total{
+    margin: 10%;
+}
+.total h2{
+    font-size: 4vmin;
+}
+.total h4{
+    font-size: 3vmin;
+    float: right;
+    margin-top: -12%;
+}
+.card---{
+    background-color: white;
+    height: auto;
+    padding: 5%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.card--- input{
+    margin-top: 10%;
+    transform: scale(1.5);
+}
+.card--- label{
+    margin-left: 3%;
+    font-size: 3vmin;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.chrtbtn{
+    height: 40px;
+    margin-top: 10%;
+    font-size: 3vmin;
+    width: 100%;
+    background-color: rgb(255, 187, 0);
+    border: none;
+}
+.chrtbtn:hover{
+    transform: scale(.9);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+footer a{
+    text-decoration: none;
+}
+.img-fluid{
+    width: 50%;
+}
+.d-flex a{
+    background: transparent;
+    border: none;
+}
+.d-flex a:hover{
+    display: none;
+}
+
+

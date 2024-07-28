@@ -1,0 +1,360 @@
+/* body {
+    background-image: linear-gradient(180.96deg, #39289F 0.82%, #422F9C 129.1%);
+} */
+body {
+    background-color: rgba(255, 240, 240, 0.331);
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+a{
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0px 10px 3px #fffb02;
+}
+
+ul li:hover a {
+    padding-left: 20px;
+}
+
+/* first-section */
+.first-section {
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.left {
+    position: relative;
+}
+
+.first-text {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+.ii img {
+    width: 100%;
+}
+.first-text h1,
+.first-text p,
+.firstbtn {
+    margin: 0;
+    padding: 10px;
+}
+
+.first-text h1 {
+    margin-top: 20%;
+    font-size: 12vmin;
+}
+
+.firstbtn {
+    background-color: transparent;
+    outline: 2px solid white;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.firstbtn:hover {
+    background-color: #ff5a43;
+}
+
+
+
+/* first-section */
+
+.first h2 {
+    font-size: 10vmin;
+    color: red;
+    text-shadow: 20px black;
+}
+
+.card-img {
+    width: auto;
+    overflow: hidden;
+}
+
+.img- img:hover {
+    transform: scale(1.2);
+    rotate: 5deg;
+    transition: 1s;
+    overflow: hidden;
+}
+
+/* second-section */
+.second-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.second-card {
+    margin-left: 10%;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 70%;
+    background-color: white;
+}
+
+.second-card h3 {
+    font-size: 4vmin;
+    margin-left: 25%;
+    margin-top: -15%;
+}
+
+.second-card i {
+    margin-top: 2%;
+    margin-left: 5%;
+    color: orange;
+    font-size: 5vmin;
+}
+
+/* third-section */
+.third-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.third-card {
+    margin: 5%;
+    width: 80%;
+    height: 90px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 1px 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.third-card :hover {
+    transform: scale(1.3);
+    rotate: 3deg;
+    transition: 1s;
+}
+
+.third-card h2 {
+    font-size: 3.5vmin;
+}
+
+.third-card h5 {
+    font-size: 2vmin;
+}
+
+.third-card img {
+    width: 30%;
+}
+
+.third-text {
+    text-align: center;
+    float: right;
+    margin-top: -35%;
+    margin-right: 4%;
+}
+
+/* fourth */
+.fourth-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.card- {
+    width: 90%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.card- h2 {
+    font-size: 3vmin;
+    margin-top: 5%;
+}
+
+.card- h2:hover {
+    color: #ffe234;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.imag {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imag img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+
+.imag:hover img {
+    transform: scale(1.4);
+    filter: blur(2px);
+}
+
+.icons- {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.icons- i:active {
+    color: #ffe234;
+}
+
+.imag:hover .icons- {
+    opacity: 1;
+
+}
+
+.icons- i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.rating {
+    color: #ffe234;
+}
+
+/* fivth-section */
+.fivth-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+.side- {
+    width: 90%;
+    margin-left: 5%;
+}
+.sixth-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+/* seventh-section */
+.seventh-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+.logo-bg{
+    
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    height: 150px;
+    margin: 3%;
+    margin-left: 12%;
+    background-color: white;
+}
+.logo-bg img{
+    width: 100%;
+}
+/* footer */
+footer a{
+    text-decoration: none;
+}
+.img-fluid{
+    width: 50%;
+}
+.d-flex a{
+    background: transparent;
+    border: none;
+}
+.d-flex a:hover{
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .carousel-caption h2{
+        font-size: 2.5vmin;
+    }
+    .second-card {
+        width: 40%;
+        margin: 3%;
+        height: 30px;
+        margin-left: 30%;
+    }
+
+    .second-card h3 {
+        margin-top: -10%;
+        font-size: 3vmin;
+    }
+
+    .third-card {
+        width: 60%;
+        height: auto;
+        margin-top: 1%;
+        margin-left: 25%;
+    }
+    .third-text:hover{
+        display: none;
+    }
+    .third-img {
+        width: 80%;
+    }
+
+    .third-text h2 {
+        margin-top: 25%;
+        font-size: 4vmin;
+    }
+
+    .third-text h5 {
+        font-size: 3vmin;
+        margin-top: -3%;
+    }
+
+    .card- {
+        background-color: white;
+        margin: 5%;
+        width: 50%;
+        margin-left: 30%;
+    }
+    .icons-{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .side h4 {
+        font-size: 8vmin;
+    }
+
+    .side {
+        margin: 5%;
+    }
+
+    .ii img {
+        width: 100%;
+    }
+    .active img{
+        margin-top: 20%;
+    }
+    .carousel-caption{
+        font-size: 4vmin;
+    }
+    .t{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100px;
+        margin-top: 5%;
+    }
+
+}
